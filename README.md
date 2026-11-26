@@ -49,7 +49,7 @@ Failed calls are refunded. Errors carry the API's message and hint; turn on "Con
 
 ## Compatibility
 
-Built with `@n8n/node-cli` 0.58 (n8n nodes API version 1). No runtime dependencies, as n8n requires for verified nodes.
+Built with `@n8n/node-cli` 1.3 (n8n nodes API version 1). No runtime dependencies, as n8n requires for verified nodes.
 
 ## Resources
 
