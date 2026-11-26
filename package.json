@@ -1,19 +1,25 @@
 {
-	"name": "n8n-nodes-starter",
+	"name": "n8n-nodes-groundsocial",
 	"version": "0.1.0",
-	"description": "Starter repository for building n8n community nodes",
+	"description": "n8n node for Groundsocial: public posts, comments, profiles, transcripts and search from 80+ platforms",
 	"license": "MIT",
-	"homepage": "https://docs.n8n.io/connect/create-nodes/overview",
+	"homepage": "https://github.com/shivanshmehendiratta/n8n-nodes-groundsocial",
 	"keywords": [
-		"n8n-community-node-package"
+		"n8n-community-node-package",
+		"groundsocial",
+		"reddit",
+		"youtube",
+		"twitter",
+		"social media",
+		"scraping"
 	],
 	"author": {
-		"name": "n8n",
-		"email": "example@example.com"
+		"name": "Shivansh Mehendiratta",
+		"email": "hello@groundsocial.dev"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/n8n-io/n8n-nodes-starter.git"
+		"url": "https://github.com/shivanshmehendiratta/n8n-nodes-groundsocial.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",
@@ -31,12 +37,10 @@
 		"n8nNodesApiVersion": 1,
 		"strict": true,
 		"credentials": [
-			"dist/credentials/GithubIssuesApi.credentials.js",
-			"dist/credentials/GithubIssuesOAuth2Api.credentials.js"
+			"dist/credentials/GroundsocialApi.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/Example/Example.node.js",
-			"dist/nodes/GithubIssues/GithubIssues.node.js"
+			"dist/nodes/Groundsocial/Groundsocial.node.js"
 		]
 	},
 	"devDependencies": {
